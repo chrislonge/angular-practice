@@ -3,11 +3,11 @@ angular-practice
 
 Setting up an AngularJS app using Yeoman.
 
-## Pre-requisites
+### Pre-requisites
 
 You will need NodeJS, NPM, Yeoman, Grunt, and Bower
 
-After you have installed Node.js and NPM run the following commands (remove sudo if on a windows computer):
+After you have installed Node.js and NPM run the following commands (remove "sudo" if you are on a windows computer):
 ```
 sudo npm install -g grunt-cli
 sudo npm install -g bower
@@ -23,11 +23,11 @@ Install the Yeoman generator for AngularJS:
 ```
 sudo npm install -g generator-angular
 ```
-## Generate Angular App
+### Generate An Angular App
 
-1. Make directory & cd into it: `mkdir mytodo && cd myAppName`
-  * `yo angular`
-  * Optionally passing an app name: `yo angular [app-name]`
+1. Make directory & cd into it: `mkdir myAppName && cd myAppName`
+  * Generate by running: `yo angular`
+    * Optionally passing an app name: `yo angular [app-name]`
   * Answer Yeoman questions 
 
 2. Install project dependencies: 
