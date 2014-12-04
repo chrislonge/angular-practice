@@ -3,7 +3,7 @@ angular-practice
 
 Instructions on how to set up a full Angular development enviroment with Yeoman. I've also added instructions on how to set up a basic web server using NodeJS.
 
-### Pre-requisites
+### Setting up Full Dev Env w/ Yeoman
 
 You will need NodeJS, NPM, Yeoman, Grunt, and Bower
 
@@ -12,14 +12,14 @@ After you have installed Node.js and NPM run the following commands (remove "sud
 `$ sudo npm install -g yo grunt-cli bower`
 
 Make sure everything is installed as expected:
-```
-$ yo --version && bower --version && grunt --version
-```
+
+`$ yo --version && bower --version && grunt --version`
+
 Install the Yeoman generator for AngularJS:
-```
-$ sudo npm install -g generator-angular
-```
-### Generate An Angular App
+
+`$ sudo npm install -g generator-angular`
+
+#### Generate An Angular App
 
 1. Make directory & cd into it: `$ mkdir myAppName && cd myAppName`
   * Generate by running: `$ yo angular`
@@ -32,7 +32,7 @@ $ sudo npm install -g generator-angular
 3. Start the server:
     `$ grunt serve`
 
-## Setting up a Basic Web Server
+### Setting up a Basic Web Server
 
 1. Install connect and serve-static modules
   * `$ npm install connect serve-static`
